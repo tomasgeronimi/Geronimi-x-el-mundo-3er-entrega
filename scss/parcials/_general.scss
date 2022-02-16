@@ -1,0 +1,140 @@
+/*general*/
+* {
+    margin: 0px;
+}
+
+.bodycolor {
+    background-color: $colorprincipal;
+}
+
+body {
+    margin-left: 15px;
+    margin-right: 2%;
+}
+
+/*parte del logo */
+header {
+    margin-top: 0px;
+    background-image: linear-gradient($colorsecundario, $colorcontraste);
+    height: 220px;
+    margin: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.logo {
+    height: 89%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+}
+
+.tipslistas {
+    padding-top: 25px;
+    margin-left: 20px;
+
+}
+
+h2 {
+    margin-left: 20px;
+    margin-top: 10%;
+    padding-bottom: 5px;
+    margin-top: 5%;
+    font-size: xx-large;
+}
+
+h3 {
+    font-size: large;
+}
+.parrafos{
+    margin-left: 1%;
+}
+.viajes {
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-bottom: 1%;
+
+    h3 {
+        margin-left: -1%;
+    }
+}
+
+.misviajes {
+    margin-left: 2%;
+
+    .listaviajes {
+        color: $colorlistas;
+        padding-left: 15px;
+
+        a {
+            text-decoration: none;
+            color: $colorlistas;
+
+            &:hover {
+                text-decoration: underline black;
+            }
+        }
+    }
+}
+
+.blogs {
+    padding: 1px;
+    a {
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline $colorlistas;
+            color: teal;
+        }
+    }
+}
+
+/*estilos de las imagenes*/
+.imagenes {
+    border-style: solid;
+    margin-top: 20px;
+}
+
+.imagensola {
+    height: 10%;
+    width: 50%;
+    border: double $colorcontraste;
+    margin-right: 3%;
+}
+
+.fotoarg {
+    border: solid;
+    margin-top: 3%;
+    height: 139px;
+    width: 301px;
+}
+
+.piedefoto {
+    padding-bottom: 15px;
+    padding-left: 15px;
+    font-size: small;
+    color: black;
+    font-weight: 500;
+}
+
+/*formularios*/
+.formulario {
+    padding-right: 15px;
+    border: solid;
+    padding-bottom: 1%;
+    padding-left: 1%;
+}
+
+.legend {
+    font-size: medium;
+}
+
+.label {
+    font-size: medium;
+}
+
+/*carrousel*/
+.fotolibro {
+    width: 10%;
+    margin-left: 30px;
+}

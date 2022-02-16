@@ -1,0 +1,105 @@
+/*RESPONSIVE*/
+/*desktop*/
+@media (min-width:1024px) {
+
+    /* blog de viajes*/
+    .gridgaleria {
+        display: grid;
+        grid-area: "img1 img2 img3"
+            "img4 img5 img6"
+            "img7 img8 img9";
+        grid-template-columns: 32% 32% 32%;
+        grid-template-rows: 32% 32% 32%;
+        width: 97.5%;
+        height: 600px;
+        padding-top: 2%;
+        justify-content: space-around;
+    }
+
+    .textoformulario {
+        width: 50%;
+    }
+}
+
+/*tablet*/
+@media (min-width:480px) and (max-width:1023px) {
+
+    h2 {
+        margin-top: 10%;
+    }
+
+    /* blog de viajes*/
+    .gridgaleria {
+        display: grid;
+        grid-area:
+            "img1""img2"
+            "img3""img4"
+            "img5""img6"
+            "img7""img8"
+            "img9";
+        grid-template-columns: 50% 50%;
+        width: 100%;
+    }
+
+    .formulario {
+        padding-right: 15px;
+    }
+
+    .textoformulario {
+        width: 50%;
+    }
+
+    // .imagensola {
+    //     height: 200px;
+    //     width: 400px;
+    //     border: solid beige;
+
+    // }
+}
+
+/*mobile*/
+@media (max-width:479px) {
+    h2 {
+        margin-top: 15%;
+    }
+
+    /* blog de viajes*/
+    .gridgaleria {
+        display: grid;
+        grid-area:
+            "img1"
+            "img2"
+            "img3"
+            "img4"
+            "img5"
+            "img6"
+            "img7"
+            "img8"
+            "img9";
+        grid-template-columns: 90%;
+        width: 100%;
+
+    }
+
+    // .imagensola {
+    //     height: 150px;
+    //     width: 280px;
+    //     border: solid beige;
+
+    // }
+
+    .mapas {
+        height: auto;
+        width: 80%;
+    }
+
+
+    .formulario {
+        padding-right: 15px;
+    }
+
+    .textoformulario {
+        width: 95%;
+    
+    }
+}

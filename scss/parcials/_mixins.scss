@@ -1,0 +1,17 @@
+/*mixins*/
+@mixin fotosargentina ($anchoarg, $largoarg) {
+    width: $anchoarg;
+    height: $largoarg;
+}
+
+.foto1{
+    @include fotosargentina(150px, 139px)
+}
+
+.foto2{
+    @include fotosargentina(250px, 139px)
+}
+
+.foto3{
+    @include fotosargentina(350px, 139px)
+}

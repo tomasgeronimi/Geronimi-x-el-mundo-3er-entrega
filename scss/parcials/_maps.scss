@@ -1,0 +1,18 @@
+/*MAPS*/
+
+$estilosfoto:(
+    color: beige,
+    borde: double gray,
+    altura: 139px,
+    ancho: 300px
+    );
+
+$imagenconmap: map-get($estilosfoto, altura);
+$imagenconmapancho: map-get($estilosfoto, ancho);
+$imagenconmapborde: map-get($estilosfoto, borde);
+
+.imagenconmap{
+   height: $imagenconmap;
+   width: $imagenconmapancho;
+   border: $imagenconmapborde;
+}
